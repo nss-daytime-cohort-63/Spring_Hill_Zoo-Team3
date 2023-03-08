@@ -58,3 +58,7 @@ const database = {
       }
     ]
   }
+
+  export const getConcessions = () => {
+      return database.concessions.map(concession => ({...concession}))
+  }
