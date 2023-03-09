@@ -11,10 +11,8 @@ export const mainHtml =
     <h2>Concessions</h2>
       ${concessionsList()}
 </article>
-<article class="exhibit">
-        <h2>Exhibit</h2>
-        ${exhibit()}
-</article>`
+        <div>${exhibit()}</div>
+`
 
 const parentHTMLElement = document.querySelector("#container")
 
