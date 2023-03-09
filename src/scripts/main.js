@@ -1,5 +1,19 @@
-import "./styles.css";
 
+
+
+import { concessionsList } from "./concessions.js";
+
+
+export const mainHtml = () => {
+  return `
+      ${concessionsList()}
+  `
+}
+
+const parentHTMLElement = document.querySelector("#container")
+
+
+parentHTMLElement.innerHTML = mainHtml()
 /* 
   Goals of project:
     1. Header for each exhibit of the zoo
