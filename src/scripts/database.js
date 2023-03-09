@@ -67,6 +67,12 @@ const database = {
     ]
   }
 
+  export const getAnimals =()=>{
+    return database.animals.map(animals=>({...animals}))
+  }
+  export const getExhibits =()=>{
+    return database.exhibit.map(exhibit=>({...exhibit}))
+  }
   export const getConcessions = () => {
       return database.concessions.map(concession => ({...concession}))
   }
