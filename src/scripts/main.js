@@ -2,13 +2,19 @@
 
 
 import { concessionsList } from "./concessions.js";
+import { exhibit } from "./exhibit.js";
 
 
-export const mainHtml = () => {
-  return `
+export const mainHtml =
+`<h1 class="header">Spring Hill Zoo</h1>
+<article class="concessions">
+    <h2>Concessions</h2>
       ${concessionsList()}
-  `
-}
+</article>
+<article class="exhibit">
+        <h2>Exhibit</h2>
+        ${exhibit()}
+</article>`
 
 const parentHTMLElement = document.querySelector("#container")
 
