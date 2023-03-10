@@ -6,12 +6,12 @@ import { exhibit } from "./exhibit.js";
 
 
 export const mainHtml = () => {
-  let text = `<h1 class="header">Spring Hill Zoo</h1>
+  let text = `
 <article class="concessions">
     <h2>Concessions</h2>
       ${concessionsList()}
 </article>
-        <div>${exhibit()}</div>
+        <div class="exhibit-container">${exhibit()}</div>
 `
 return text
 }

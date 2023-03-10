@@ -15,20 +15,20 @@ const database = {
         photo:'../photos/snake.jpg'
       },
       {
-        id: 2,
-        name: "Josephine",
-        species: "African Elephant",
-        food: "Funnel Cakes",
-        exhibitId: 3,
-        photo:'../photos/African-elephant.jpg'
-      },
-      {
         id: 3,
         name: "Larry",
         species: "Lion",
         food: "Candy Corn",
         exhibitId: 2,
         photo:'../photos/lion.jpg'
+      },
+      {
+        id: 2,
+        name: "Josephine",
+        species: "African Elephant",
+        food: "Funnel Cakes",
+        exhibitId: 3,
+        photo:'../photos/African-elephant.jpg'
       },
     ],
     exhibit: [
