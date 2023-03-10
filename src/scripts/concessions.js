@@ -13,8 +13,8 @@ export const concessionsList = () => {
         <img src='${concession.photo}' class='concessionPhoto'>
 
         <div class ='concessionsWords'>
-            <h2 class ="names">${concession.name}</h2>
-            <h3 class="concessionsDescription">If you get hungry on your visit come checkout ${concession.name}, where we are known for our famous "${concession.food}".</h3>
+            <h3 class ="names">${concession.name}</h3>
+            <p class="concessionsDescription">If you get hungry on your visit come checkout ${concession.name}, where we are known for our famous "${concession.food}".<p>
        </div>
 
             </section>
